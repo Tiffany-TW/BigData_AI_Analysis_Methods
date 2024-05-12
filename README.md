@@ -15,7 +15,8 @@ Analysis:
 4. Decomposing complex feature information into multiple features, each containing specific details.
 
 Method:
-1. 
+1. Identify an index that effectively demonstrates consistency in the relationship between the target and features as observed in the data analysis outcomes, aligning with domain knowledge. Furthermore, ensure that the relationship characterized by the index remains consistent across various resampled data subsets.
+2. 
 
   Mutual information serves as a valuable metric for quantifying the dependency between variables, making it particularly useful for selecting relevant features and reduces dimensionality in datasets.
 #### What is Mutual Information?
