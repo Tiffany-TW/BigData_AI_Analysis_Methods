@@ -10,9 +10,12 @@ Case description:
 
 Analysis:
 1. Inconsistency in the relationship between the target and features observed in the data analysis outcomes compared to domain knowledge
-2. Feature selection using mutual information
+2. Data cleaning or genuine critical feature identification
 3. Detection of noise in critical features
-4.  
+4. Decomposing complex feature information into multiple features, each containing specific details.
+
+Method:
+1. 
 
   Mutual information serves as a valuable metric for quantifying the dependency between variables, making it particularly useful for selecting relevant features and reduces dimensionality in datasets.
 #### What is Mutual Information?
