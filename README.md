@@ -20,9 +20,11 @@ Method:
 3. Mutual information serves as a valuable metric for quantifying the dependency between variables, making it particularly useful for selecting relevant features and reduces dimensionality in datasets.
 
 Implementation:
-* Data: Smartphones Price Dataset from Kaggle
-* Examine target variation of Final Price using a violin plot. The violin plot indicates that the distribution of Final Price is unimodal.<img width="1116" alt="image" src="https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/f9c31013-1391-4924-85dd-5af7b6a24605">
-* Explore the dependency between the target and each feature using mutual information
+* Data: Automobile Dataset from Kaggle
+* Examine target variation of price using a violin plot. The violin plot indicates that the distribution of price is unimodal for most car brands.<img width="1506" alt="image" src="https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/f9c86f44-c0ba-48d9-9d16-c3a51609128b">
+* Explore the dependency between the target and each feature using mutual information <img width="1566" alt="image" src="https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/c56ff047-5e64-4571-8d7e-671189f5e489"> The bar plot indicates that the dependency between curb-weight and price is the strongest of all.
+* Note: sklearn.feature_selection provides two functions mutual_information_regression and mutual_information_classif for numerical and categorical target variables respectively. Ensure discrete features in the dataset are transformed into integer type before calculating mutual information.
+
    
 
 #### What is Mutual Information?
