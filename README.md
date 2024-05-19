@@ -16,10 +16,13 @@ Analysis:
 
 Method:
 1. Examine target variation using EDA methods and identify sources of variation based on domain knowledge. If the variation sources cause interference in the prediction, reorganize the data to ensure suitability for accurate predictions.
-2. Identify an index that effectively demonstrates consistency in the relationship between the target and features as observed in the data analysis outcomes, aligning with domain knowledge. Furthermore, ensure that the relationship characterized by the index remains consistent across various resampled data subsets.
+2. Identify a feature utility metric that effectively demonstrates consistency in the relationship between the target and features as observed in the data analysis outcomes, aligning with domain knowledge. Furthermore, ensure that the relationship characterized by the index remains consistent across various resampled data subsets.
+3. Mutual information serves as a valuable metric for quantifying the dependency between variables, making it particularly useful for selecting relevant features and reduces dimensionality in datasets.
 
 Implementation:
+* Data: Smartphones Price Dataset from Kaggle
+* Examine target variation of Final Price using a violin plot. The violin plot indicates that the distribution of Final Price is unimodal.<img width="1116" alt="image" src="https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/f9c31013-1391-4924-85dd-5af7b6a24605">
+* Explore the dependency between the target and each feature using mutual information
+   
 
-
-  Mutual information serves as a valuable metric for quantifying the dependency between variables, making it particularly useful for selecting relevant features and reduces dimensionality in datasets.
 #### What is Mutual Information?
