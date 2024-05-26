@@ -25,6 +25,8 @@ Implementation:
 * Explore the dependency between the target and each feature using mutual information <img width="1566" alt="image" src="https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/c56ff047-5e64-4571-8d7e-671189f5e489"> The bar plot indicates that the dependency between curb-weight and price is the strongest of all.
 * Note: sklearn.feature_selection provides two functions mutual_information_regression and mutual_information_classif for numerical and categorical target variables respectively. Ensure discrete features in the dataset are transformed into integer type before calculating mutual information.
 
-   
-
 #### What is Mutual Information?
+* One feature utility metric that quantifies the stength of (linear or non-linear) of correlation between two variables, say the target and features.
+* In information theory terms, MI measures the amount of information that two variables provide about each other (symetric).
+* The value of MI $\in [0, \infty)$.
+* 
