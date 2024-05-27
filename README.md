@@ -29,9 +29,9 @@ Implementation:
 
 
 #### What is Mutual Information?
-* One feature utility metric that quantifies the stength of (linear or non-linear) of correlation between two variables, say the target and features.
-* In information theory terms, MI measures the amount of information that two variables provide about each other (symetric).
-* The value of MI $\in [0, \infty)$.
-* 
+* One feature utility metric that quantifies the stength of (linear or non-linear) of correlation between two variables, say the target and features. The value of MI lies within 0 and infinity.
+* In information theory terms, MI measures the amount of information that two variables provide about each other (symmetric).
+* In terms of entropy, mutual information is clearly explained.
+  * Entropy, denoted by H(X), is a measure of the average level of uncertainty of a random variable. Mathematically, H(X) is defined as $-\sum_{x \in X} {p(x)\log p(x)}$. It is clear 
 #### Reference
 1. https://www.kaggle.com/code/ryanholbrook/mutual-information
