@@ -33,13 +33,16 @@ Implementation:
 * In information theory terms, MI measures the amount of information that two variables provide about each other (symmetric).
 * In terms of entropy, mutual information is clearly explained.
   * Entropy, denoted by H(X), is a measure of the average level of uncertainty of a random variable. Mathematically, H(X) is defined as $-\sum_{x \in X} {p(x)\log p(x)}$. It is clear
-  * Information content ![information_content_illus](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/29c5d8dc-4b28-4d77-8300-4ce40a59cf39)
+  * Information content ![information_content_illus](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/936735b6-ac1f-4b9b-9bec-f9d0daebd668)
+
 
 
 #### Properties of Mutual Information
-* Explicit relation between the feature item and the target ![mi_of_functions](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/0593f5c3-68c5-4b80-a0d8-beafc7c1d86c)
-* Add some gaussian noise to the function ![mi_of_function_add_noise](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/e1e58edd-12a6-43fa-999a-a94483ac82ca)
+* Explicit relation between the feature item and the target ![mi_of_functions](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/df39def6-8146-4e73-8615-870d9fc3bb32)
 
+
+* Add some gaussian noise to the function ![mi_of_function_add_noise](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/c34b7a94-0cac-4537-a063-9a1d02e6cc93)
 
 #### Reference
-1. https://www.kaggle.com/code/ryanholbrook/mutual-information
+1. https://www.kaggle.com/code/ryanholbrook/mutual-information 
+
