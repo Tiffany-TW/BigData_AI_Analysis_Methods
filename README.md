@@ -43,5 +43,10 @@ Implementation:
 * Add some gaussian noise to the function ![mi_of_function_add_noise](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/c34b7a94-0cac-4537-a063-9a1d02e6cc93)
 
 #### Reference
-1. https://www.kaggle.com/code/ryanholbrook/mutual-information 
+1. https://www.kaggle.com/code/ryanholbrook/mutual-information
+
+### Case 2: Prevent overfitting using permutation importance
+
+#### Reference
+1. https://www.kaggle.com/code/dansbecker/permutation-importance
 
