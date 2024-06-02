@@ -33,12 +33,11 @@ Implementation:
 * In information theory terms, MI measures the amount of information that two variables provide about each other (symmetric).
 * In terms of entropy, mutual information is clearly explained.
   * Entropy, denoted by H(X), is a measure of the average level of uncertainty of a random variable. Mathematically, H(X) is defined as $-\sum_{x \in X} {p(x)\log p(x)}$. Clearly, H(X) is the expected value of the information content of the random variable X ($-\log(p(x)$). 
-  ** The information content of an event for random variable X is defined as $-\log(p(x))$. According to Shannon's axiom, the higher the probabilty for an event to occur, the more "surprise" the event is. Thus, $\log(x)$ is the most simple and suitable function that  the trend ![information_content_illus](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/936735b6-ac1f-4b9b-9bec-f9d0daebd668)
-
-
+  * The information content of an event for random variable X is defined as $-\log(p(x))$. According to Shannon's axiom, the higher the probabilty for an event to occur, the more "surprising" the event is. Thus, $\log(x)$ is the most simple and suitable function that meets Shannon's axiom.
+  * The negative of $\log (p(x))$ is monotone decreasing given $p(x) \in [0,1]$.![information_content_illus](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/936735b6-ac1f-4b9b-9bec-f9d0daebd668)
 
 #### Properties of Mutual Information
-* Explicit relation between the feature item and the target ![mi_of_functions](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/df39def6-8146-4e73-8615-870d9fc3bb32)
+* Mutual information helps identify relations between a feature item and the target, not limited to linear\monotone relations. The mi of periodic functions such as $\sin x$ is close to both linear and monotone functions. ![mi_of_functions](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/df39def6-8146-4e73-8615-870d9fc3bb32)
 
 
 * Add some gaussian noise to the function ![mi_of_function_add_noise](https://github.com/Tiffany-TW/BigData_AI_Analysis_Methods/assets/157606696/c34b7a94-0cac-4537-a063-9a1d02e6cc93)
