@@ -51,3 +51,8 @@ Implementation:
 1. https://www.kaggle.com/code/dansbecker/permutation-importance
 2. https://christophm.github.io/interpretable-ml-book/
 
+## Tackling Imbalanced Data
+### Case 1: Oversampling
+#### 1.1 SMOTE (Synthetic Minority Oversampling Technique)
+#### 1.2 ADASYN (Adaptive Synthetic Sampling Approach for Imbalanced Learning)
+
